@@ -1,0 +1,17 @@
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.gitignore_global	
+[user]
+	name = Supakorn
+	email = supakorn0728@gmail.com
+	signingkey = 1667AF2B
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
