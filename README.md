@@ -5,7 +5,7 @@ My dotfile configurations
 ## Prerequisites:
 
 - [Homebrew](https://brew.sh/)
-- Xcode Command Line Tools (will be installed by homebrew)
+- Xcode Command Line Tools 
 
 ### Pre-Installation
 
